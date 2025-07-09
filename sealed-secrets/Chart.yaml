@@ -1,0 +1,11 @@
+---
+apiVersion: v2
+name: sealed-secrets
+description: A custom sealed-secrets chart
+type: application
+version: 0.1.0
+appVersion: "0.30.0"
+dependencies:
+  - name: sealed-secrets
+    version: 2.17.3
+    repository: "https://bitnami-labs.github.io/sealed-secrets"
