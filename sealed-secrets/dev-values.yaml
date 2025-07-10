@@ -12,7 +12,7 @@ sealed-secrets:
   fullnameOverride: "sealed-secrets"
   ## @param namespace Namespace where to deploy the Sealed Secrets controller
   ##
-  namespace: "security"
+  namespace: "kube-system"
 
   ## @param extraDeploy [array] Array of extra objects to deploy with the release
   ##
